@@ -69,9 +69,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         )
 
         Text(
-            text = labelText.value,
+            text = textName.value+", "+textAge.value,
             modifier = Modifier.align(Alignment.CenterHorizontally).padding(top = 150.dp)
         )
+
 
 
         TextField(
